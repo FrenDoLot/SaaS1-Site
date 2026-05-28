@@ -1,0 +1,3 @@
+export default function Pricing() {
+  return <section className="section" id="pricing"><div className="pricingCard"><span className="sectionLabel">Early Access</span><h2>Запуск для первых клиентов</h2><p>Пока продукт развивается, можно подключиться на ранних условиях и помочь сформировать нужные функции.</p><div className="price">400 ₽ <span>/ месяц</span></div><ul><li>Персональная ссылка для бизнеса</li><li>Приём заявок в Telegram</li><li>Уведомления владельцу</li><li>Базовая история клиентов</li></ul><a className="primaryButton" href="https://t.me/UvedZayava1_bot" target="_blank">Подключиться</a></div></section>;
+}
