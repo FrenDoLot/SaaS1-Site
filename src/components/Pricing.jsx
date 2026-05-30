@@ -1,3 +1,52 @@
 export default function Pricing() {
-  return <section className="section" id="pricing"><div className="pricingCard"><span className="sectionLabel">Early Access</span><h2>Запуск для первых клиентов</h2><p>Пока продукт развивается, можно подключиться на ранних условиях и помочь сформировать нужные функции.</p><div className="price">400 ₽ <span>/ месяц</span></div><ul><li>Персональная ссылка для бизнеса</li><li>Приём заявок в Telegram</li><li>Уведомления владельцу</li><li>Базовая история клиентов</li></ul><a className="primaryButton" href="https://t.me/UvedZayava1_bot" target="_blank">Подключиться</a></div></section>;
+  return (
+    <section className="section" id="pricing">
+      <div className="sectionHeader">
+        <span className="sectionLabel">Тарифы</span>
+        <h2>Выберите удобный вариант</h2>
+        <p>Можно начать бесплатно на 3 дня и проверить, подходит ли сервис.</p>
+      </div>
+
+      <div className="pricingGrid">
+        <div className="pricingCard">
+          <span className="sectionLabel">Пробный период</span>
+          <h2>3 дня</h2>
+          <div className="price">Бесплатно</div>
+
+          <ul>
+            <li>Полный доступ к боту</li>
+            <li>Персональная ссылка</li>
+            <li>Приём заявок</li>
+            <li>Уведомления в Telegram</li>
+          </ul>
+        </div>
+
+        <div className="pricingCard">
+          <span className="sectionLabel">Месяц</span>
+          <h2>Стандарт</h2>
+          <div className="price">399 ₽</div>
+
+          <ul>
+            <li>Полный доступ</li>
+            <li>История заявок</li>
+            <li>Поддержка</li>
+            <li>Без ограничений</li>
+          </ul>
+        </div>
+
+        <div className="pricingCard">
+          <span className="sectionLabel">Год</span>
+          <h2>Выгодно</h2>
+          <div className="price">2999 ₽</div>
+
+          <ul>
+            <li>Все возможности тарифа “Месяц”</li>
+            <li>Экономия 1789 ₽</li>
+            <li>Приоритетные обновления</li>
+            <li>Без ограничений</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
 }

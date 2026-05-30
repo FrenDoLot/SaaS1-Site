@@ -1,5 +1,6 @@
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
+import DemoVideo from "./components/DemoVideo.jsx";
 import ProblemSolution from "./components/ProblemSolution.jsx";
 import HowItWorks from "./components/HowItWorks.jsx";
 import Features from "./components/Features.jsx";
@@ -13,8 +14,10 @@ export default function App() {
   return (
     <div className="app">
       <Header />
+
       <main>
         <Hero />
+        <DemoVideo />
         <ProblemSolution />
         <HowItWorks />
         <Features />
@@ -23,6 +26,7 @@ export default function App() {
         <FAQ />
         <CTA />
       </main>
+
       <Footer />
     </div>
   );
